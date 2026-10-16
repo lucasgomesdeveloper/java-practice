@@ -1,6 +1,14 @@
 package beecrowd_basico;
+/*
+ * Beecrowd 1036 - Fórmula de Bhaskara
+ * Lê três valores (A, B, C) e calcula as raízes da equação de segundo grau.
+ * Se a == 0 ou delta < 0, imprime "Impossivel calcular".
+ * https://judge.beecrowd.com/pt/problems/view/1036
+ */
+
 import java.util.Locale;
 import java.util.Scanner;
+
 public class Beecrowd1036 {
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
