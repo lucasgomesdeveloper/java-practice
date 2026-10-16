@@ -1,6 +1,15 @@
 package beecrowd_basico;
+
+/*
+ * Beecrowd 1012 - Área
+ * Lê A, B e C e calcula as áreas de triângulo retângulo, círculo,
+ * trapézio, quadrado e retângulo, imprimindo com 3 casas decimais.
+ * https://judge.beecrowd.com/pt/problems/view/1012
+ */
+
 import java.util.Locale;
 import java.util.Scanner;
+
 public class Beecrowd1013 {
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
