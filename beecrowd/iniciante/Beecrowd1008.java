@@ -1,5 +1,12 @@
 package beecrowd_basico;
 
+/*
+ * Beecrowd 1008 - Salário
+ * Lê nome do funcionário, salário fixo e total de vendas.
+ * Calcula o salário final: fixo + 15% sobre o total de vendas.
+ * https://judge.beecrowd.com/pt/problems/view/1008
+ */
+
 import java.util.Scanner;
 import java.util.Locale;
 
