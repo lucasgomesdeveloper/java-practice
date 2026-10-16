@@ -2,33 +2,25 @@ package beecrowd_basico;
 
 /*
  * Beecrowd 1008 - Salário
- * Lê nome do funcionário, salário fixo e total de vendas.
- * Calcula o salário final: fixo + 15% sobre o total de vendas.
+ * Lê número do funcionário, horas trabalhadas e valor por hora.
+ * Imprime o número e o salário (horas x valor por hora).
  * https://judge.beecrowd.com/pt/problems/view/1008
  */
 
 import java.util.Scanner;
 import java.util.Locale;
 
-public class Beecrowd1008 {
+public class Beecrowd1010 {
+    public static void main(String[] args) {
+        Locale.setDefault(Locale.US);
+        Scanner sc = new Scanner(System.in);
+        String nome = sc.nextLine();
+        double salario_fixo = sc.nextDouble();
+        double total_vendas = sc.nextDouble();
+        double salario_final = (0.15 * total_vendas) + salario_fixo;
+        System.out.printf("TOTAL R$ = %.2f%n", salario_final);
+        sc.close();
 
-	public static void main(String[] args) {
-	Locale.setDefault(Locale.US);
-	Scanner sc = new Scanner(System.in);
-    String nome_funcionario;
-    nome_funcionario = sc.nextLine();
-    double salario_fixo;
-    salario_fixo = sc.nextDouble();
-    int total_vendas;
-    total_vendas = sc.nextInt();
-    
-    double total_salario = (total_vendas * 15) / 100 + salario_fixo;
-    
-    System.out.println("TOTAL = "+ total_salario);
-    
-	sc.close();
-	
 
-	}
-
+    }
 }
