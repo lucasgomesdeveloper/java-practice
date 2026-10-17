@@ -1,5 +1,13 @@
 package beecrowd_basico;
+
+/*
+ * Beecrowd 1003 - Soma Simples
+ * Lê dois inteiros (A e B) e imprime a soma no formato "SOMA = valor".
+ * https://judge.beecrowd.com/pt/problems/view/1003
+ */
+
 import java.util.Scanner;
+
 public class Beecrowd1003 {
 
 	public static void main(String[] args) {
