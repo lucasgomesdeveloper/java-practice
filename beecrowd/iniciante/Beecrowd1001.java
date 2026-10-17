@@ -1,5 +1,11 @@
 package beecrowd_basico;
 
+/*
+ * Beecrowd 1001 - Extremamente Básico
+ * Lê dois inteiros (A e B) e imprime a soma no formato "X = valor".
+ * https://judge.beecrowd.com/pt/problems/view/1001
+ */
+
 import java.util.Scanner;
 
 public class Beecrowd1001 {
