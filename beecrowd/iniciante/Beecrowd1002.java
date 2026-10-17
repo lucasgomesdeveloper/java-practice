@@ -1,7 +1,14 @@
 package beecrowd_basico;
 
+/*
+ * Beecrowd 1002 - Área do Círculo
+ * Lê o raio e calcula a área do círculo (pi = 3.14159), com 4 casas decimais.
+ * https://judge.beecrowd.com/pt/problems/view/1002
+ */
+
 import java.util.Locale;
 import java.util.Scanner;
+
 public class Beecrowd1002 {
 
 	public static void main(String[] args) {
